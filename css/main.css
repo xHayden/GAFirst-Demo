@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap");
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+#content {
+  margin-top: calc(100px + 0.2vw);
+}
+
+#intro-container {
+  display: flex;
+  align-items: center;
+  padding-top: calc(13vw + 20px);
+  padding-bottom: calc(13vw + 20px);
+  background-image: url("../images/4026-bg");
+  background-position: 0% 70%;
+}
+
+#intro-container h1 {
+  width: 40%;
+  margin-left: calc(5% + 10px);
+  color: white;
+}
+
+header {
+  top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: calc(100px + 0.2vw);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+#header-logo {
+  width: calc(2vw + 100px);
+}
+
+#top-nav {
+  margin-left: auto;
+}
+
+.section {
+  margin-left: calc(10vw + 20px);
+  margin-right: calc(10vw + 20px);
+  margin-top: calc(20px);
+  margin-bottom: calc(20px);
+}
+
+.section p {
+  font-size: 1.2rem;
+}
+
+.program-card {
+  padding: 30px 10px;
+  height: calc(300px + 30vh);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  width: calc(4vw + 220px);
+  transition: height 0.5s;
+  border-radius: 10px;
+  margin-left: calc(0.1vw + 2px);
+  margin-right: calc(0.1vw + 2px);
+}
+
+.program-card:hover {
+  height: calc(350px + 30vh);
+  padding-left: 20px;
+  transition: height 0.5s;
+}
+
+.program-card h1 {
+  /*padding-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: 5px solid rgb(218, 218, 218);*/
+}
+
+.program-card button {
+  background-color: #4e6283;
+  border: none;
+  color: #ececec;
+  width: 10em;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.program-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program-card h1 {
+  color: white;
+}
+
+.program-card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.program-card hr {
+  border-top: 5px solid #ebebeb;
+  width: 40%;
+}
+
+#frc-card {
+  background: #3cacff;
+  background: -moz-linear-gradient(90deg, #3cacff 0%, #2878ff 100%);
+  background: -webkit-linear-gradient(90deg, #3cacff 0%, #2878ff 100%);
+  background: linear-gradient(90deg, #3cacff 0%, #2878ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3cacff",endColorstr="#2878ff",GradientType=1);
+}
+
+#ftc-card {
+  background: #ff933c;
+  background: -moz-linear-gradient(90deg, #ff933c 0%, #ff7e28 100%);
+  background: -webkit-linear-gradient(90deg, #ff933c 0%, #ff7e28 100%);
+  background: linear-gradient(90deg, #ff933c 0%, #ff7e28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff933c",endColorstr="#ff7e28",GradientType=1);
+}
+
+#fll-card {
+  background: #ff4444;
+  background: -moz-linear-gradient(90deg, #ff4444 0%, #ed561a 100%);
+  background: -webkit-linear-gradient(90deg, #ff4444 0%, #ed561a 100%);
+  background: linear-gradient(90deg, #ff4444 0%, #ed561a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4444",endColorstr="#ed561a",GradientType=1);
+}
+
+#flljr-card {
+  background: #44ff53;
+  background: -moz-linear-gradient(90deg, #44ff53 0%, #3fed1a 100%);
+  background: -webkit-linear-gradient(90deg, #44ff53 0%, #3fed1a 100%);
+  background: linear-gradient(90deg, #44ff53 0%, #3fed1a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#44ff53",endColorstr="#3fed1a",GradientType=1);
+}
+
+.section-intro {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: calc(40% + 20px);
+}
+
+/*# sourceMappingURL=main.css.map */
